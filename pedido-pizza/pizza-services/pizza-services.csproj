@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>pizza_services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pizza-domains\pizza-domains.csproj" />
+    <ProjectReference Include="..\pizza-infrastructure\pizza-infrastructure.csproj" />
+    <ProjectReference Include="..\pizza-models\pizza-models.csproj" />
+    <ProjectReference Include="..\pizza-repositoryFactory\pizza-repositoryFactory.csproj" />
+  </ItemGroup>
+
+</Project>

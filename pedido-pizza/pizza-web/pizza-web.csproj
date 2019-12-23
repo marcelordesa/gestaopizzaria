@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>pizza_web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pizza-domains\pizza-domains.csproj" />
+    <ProjectReference Include="..\pizza-models\pizza-models.csproj" />
+    <ProjectReference Include="..\pizza-serviceFactory\pizza-serviceFactory.csproj" />
+    <ProjectReference Include="..\pizza-services\pizza-services.csproj" />
+  </ItemGroup>
+
+</Project>
